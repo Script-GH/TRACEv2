@@ -1,1 +1,11 @@
 .env
+
+# Local Go build and test output. Does not cover files already tracked.
+/trace
+*.exe
+*.test
+*.out
+coverage.out
+vendor/
+
+.DS_Store
